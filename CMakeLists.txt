@@ -7,5 +7,5 @@ find_package(Threads)
 include_directories(.)
 
 add_executable(example
-        main.cpp can.hpp can_drive.cpp can_drive.h)
+        main.cpp can_driver.cpp)
 target_link_libraries(example ${CMAKE_THREAD_LIBS_INIT})
